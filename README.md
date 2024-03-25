@@ -1,1 +1,1 @@
-Koukni do run.sh
+Koukni do start.sh
