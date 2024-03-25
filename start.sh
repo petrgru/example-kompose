@@ -1,3 +1,5 @@
 mkdir out && cd out
-kompose convert -f ../compose.yaml -n it2125-test
+
+# kompose -n je Vas namespaces v rancheru
+kompose convert -f ../compose.yaml -n [namespaces]
 kubectl apply -f .
